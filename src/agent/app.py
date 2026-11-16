@@ -7,8 +7,8 @@ from pydantic import BaseModel, Field
 
 
 app = FastAPI(
-    title="Sentinel Agent",
-    description="Secure enterprise AI agent laboratory",
+    title="SurfNet Agent",
+    description="Two-agent enterprise SaaS platform for business automation and security",
     version="0.1.0"
 )
 
@@ -64,7 +64,7 @@ def health_check():
 
     return {
         "status": "healthy",
-        "application": "Sentinel Agent",
+        "application": "SurfNet Agent",
         "llm_connected": False
     }
 

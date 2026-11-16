@@ -1,8 +1,8 @@
-# Sentinel Agent — AI Security Risk Register
+# SurfNet Agent — AI Security Risk Register
 
 ## 1. Project Context
 
-Sentinel Agent is a simulated enterprise AI assistant.
+SurfNet Agent is a simulated enterprise AI assistant.
 
 Its planned capabilities include:
 
@@ -235,4 +235,4 @@ Status: Initial risk assessment.
 
 Next activity:
 Apply STRIDE threat modeling and map each risk
-to the Sentinel Agent data flow.
+to the SurfNet Agent data flow.
