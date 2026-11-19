@@ -79,15 +79,82 @@ authorizes sensitive operations.
 
 Subscription-based Software as a Service (SaaS).
 
-## Current Progress
+## 📍 Current Progress
 
-### Week 1 - Day 1
+**Program:** AI Engineering Security Masterclass  
+**Company Project:** SurfNet Technologies  
+**Product:** SurfNet Agent  
+**Current Stage:** Stage 1 — AI Attack Surfaces & Threat Modeling  
+**Current Status:** Week 1 — Day 4 Completed  
+**Weekly Progress:** 4/5 study days completed
 
-- Created initial project structure.
-- Built the SurfNet Agent API.
-- Implemented email intake validation.
-- Classified incoming emails as untrusted.
-- Created initial architecture documentation.
+### Week 1: AI Attack Surfaces & Threat Modeling
+
+- [x] **Day 1 — AI Security Foundations**
+  - Introduction to AI attack surfaces.
+  - Understanding threats against LLM-powered applications.
+  - Identifying the security responsibilities of AI engineers.
+
+- [x] **Day 2 — Prompt Injection & OWASP LLM Risks**
+  - Direct and indirect prompt injection.
+  - OWASP Top 10 for LLM Applications.
+  - Excessive agency and sensitive information disclosure.
+  - Authorization before data retrieval and tool execution.
+
+- [x] **Day 3 — STRIDE Threat Modeling**
+  - Applying STRIDE to AI-powered systems.
+  - Identifying trust boundaries and security threats.
+  - Data-flow analysis.
+  - Threat modeling an AI agent interacting with business systems.
+  - Designing defensive controls and mitigations.
+
+- [x] **Day 4 — The Confused Deputy Problem**
+  - Understanding confused deputy attacks.
+  - Tenant isolation and authorization boundaries.
+  - Identity-bound authorization.
+  - Role-based and scope-based access controls.
+  - Least privilege for AI agents.
+  - Human approval for sensitive operations.
+  - Practical Python implementation of vulnerable and secure authorization patterns.
+  - Security testing with Python unit tests.
+  - Practical reasoning assessment: 6/6.
+
+- [ ] **Day 5 — Week 1 Consolidation**
+  - Consolidate the week's security concepts.
+  - Review the SurfNet Agent threat model.
+  - Strengthen the practical implementation.
+  - Complete the weekly GitHub portfolio milestone.
+
+### Day 4 Practical Deliverables
+
+The confused deputy laboratory includes:
+
+| File | Purpose |
+|---|---|
+| `labs/day4_confused_deputy.py` | Vulnerable and secure CRM authorization implementations |
+| `tests/test_day4_authorization.py` | Authorization and tenant-isolation tests |
+| `attacks/confused_deputy/payloads.md` | Synthetic attack payloads for local testing |
+| `reports/day4-security-lab.md` | Security findings and defensive recommendations |
+
+### Skills Developed So Far
+
+- AI attack-surface identification.
+- Prompt-injection analysis.
+- OWASP LLM security fundamentals.
+- STRIDE threat modeling.
+- Data-flow and trust-boundary analysis.
+- Confused deputy vulnerability analysis.
+- Multi-tenant authorization.
+- Secure AI agent tool access.
+- Python security testing.
+
+### Upcoming Milestone
+
+**Week 1 Day 5:** Consolidate the foundations of AI security engineering and prepare the Week 1 portfolio milestone.
+
+---
+
+**Progression Rule:** Complete each practical lesson, test the implementation, document the findings, and push the work to GitHub before moving to the next milestone.
 
 ## Security Philosophy
 
